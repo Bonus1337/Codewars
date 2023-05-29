@@ -29,7 +29,7 @@ function even_or_odd(n: number): string {
 
 ## Testing
 
-The project uses the `chai` assertion library for testing. The test cases are defined in the `index.test.ts` file. You can run the tests at any time to verify the correctness of your implementation.
+The project uses the `jest` assertion library for testing. The test cases are defined in the `index.test.ts` file. You can run the tests at any time to verify the correctness of your implementation.
 
 ## Submission
 
