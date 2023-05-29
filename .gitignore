@@ -1,0 +1,23 @@
+# Ignorowanie plików generowanych przez TypeScript
+dist/
+*.js
+*.js.map
+
+# Ignorowanie plików wynikowych testów jednostkowych
+coverage/
+
+# Ignorowanie katalogu node_modules
+node_modules/
+
+# Ignorowanie pliku wynikowego konfiguracji TypeScript
+tsconfig.json
+
+# Ignorowanie plików konfiguracyjnych IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignorowanie plików tymczasowych
+*.log
+*.swp
+*.tmp
