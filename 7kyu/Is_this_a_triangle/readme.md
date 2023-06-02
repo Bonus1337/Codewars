@@ -8,11 +8,6 @@ The function should return `true` if a triangle can be built with the sides of g
 
 A triangle can be built if the sum of lengths of any two sides is greater than the length of the remaining side. For this challenge, all triangles must have a surface greater than 0 to be accepted.
 
-## Installation
-
-1. Clone the repository
-2. Run `npm install` to install all dependencies
-
 ## Running the tests
 
 To run the tests, execute the following command in the project directory:
@@ -20,9 +15,6 @@ To run the tests, execute the following command in the project directory:
 Here are some test cases you can use to verify your solution:
 
 ```javascript
-import { isTriangle } from "./index"; // import your function
-import { assert } from "chai";
-
 describe("PublicTest", function () {
   it("should pass basic tests", () => {
     assert.strictEqual(isTriangle(1, 2, 2), true);
@@ -34,11 +26,3 @@ describe("PublicTest", function () {
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
----
-
-Note: Replace "solution" and "index" with the actual names of your files.
